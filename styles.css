@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: rgb(218, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #555;
+}
+
+h1 {
+   font-size: 4rem;
+   font-weight: 900;
+   color: #fff;
+   line-height: 1.2;
+    margin-top: 4rem;
+}
+
+h1 span {
+    background-color: rgb(10, 161, 161);
+    padding: 5px 20px;
+}
+
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+ .term {
+    max-width: 320px;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3%;
+    box-shadow: 0 1px 0 rgb(139, 135, 135), 0 5px 10px rgb(100, 88, 88);
+    transition: all 100ms ease-in-out;
+}
+
+
+dt {
+    color: rgb(10, 161, 161);
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+dt span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.emoji {
+    display: block;
+    font-size: 400%;
+    margin: 0 auto 20px;
+}
+
+dd {
+    font-size: 13px;
+    margin-left: 0;
+    letter-spacing: 0.33px;
+}
